@@ -19,6 +19,7 @@
   "homepage": "https://github.com/zbh4597/game-components#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-html-minify": "^0.0.14",
     "gulp-uglify": "^3.0.0"
   }
 }
