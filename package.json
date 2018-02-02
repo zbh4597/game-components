@@ -1,0 +1,24 @@
+{
+  "name": "game-components",
+  "version": "1.0.0",
+  "description": "各种定制游戏控件，比如登录，支付等。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbh4597/game-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zbh4597/game-components/issues"
+  },
+  "homepage": "https://github.com/zbh4597/game-components#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
