@@ -4,7 +4,7 @@
   "description": "各种定制游戏控件，比如登录，支付等。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --recursive --reporter mochawesome && start chrome mochawesome-report/mochawesome.html",
     "build": "gulp",
     "serve": "gulp serve"
   },
@@ -20,8 +20,11 @@
   "homepage": "https://github.com/zbh4597/game-components#readme",
   "devDependencies": {
     "browser-sync": "^2.23.6",
+    "chai": "^4.1.2",
     "gulp": "^3.9.1",
     "gulp-html-minify": "^0.0.14",
-    "gulp-uglify": "^3.0.0"
+    "gulp-uglify": "^3.0.0",
+    "mocha": "^5.0.1",
+    "mochawesome": "^3.0.2"
   }
 }
