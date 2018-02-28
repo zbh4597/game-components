@@ -20,7 +20,7 @@
 		var that = this;
 		handler = function (event) {
 			var target = event.target;
-			if (typeof target.dataset['click'] === 'string') {
+			if (typeof config === 'object' && typeof target.dataset['click'] === 'string' && typeof config[target.dataset['click']] === 'function') {
 				config[target.dataset['click']].call(that); // 事件处理程序上下文绑定在PaySelect实例上
 			}
 		};
